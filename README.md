@@ -1,41 +1,90 @@
-<div style="background-color:#0f131a; color:white; padding:20px; font-family:Arial, sans-serif; position:relative;">
-  <div style="display:flex; align-items:center;">
-    <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width="50px">
-    <h1 style="margin-left:10px;">About me</h1>
-  </div>
-  <hr style="border-color:#2d3748;">
-  
-  <div style="display:flex; justify-content:space-between;">
-    <div style="width:60%;">
-      <ul style="list-style-type:none; padding-left:20px;">
-        <li style="margin-bottom:15px;">
-          <span>🏫</span> I am a <span style="background-color:#2d3748; padding:3px 8px; border-radius:5px;">Junior</span> at <a href="#" style="color:#4299e1; text-decoration:none;">Faculty of Computers & Informatics</a> at <a href="#" style="color:#4299e1; text-decoration:none;">Suez Canal University</a>.
-        </li>
-        <li style="margin-bottom:15px;">
-          <span>🏆</span> 2x <span style="background-color:#2d3748; padding:3px 8px; border-radius:5px;">ACPC</span> Finalist.
-        </li>
-        <li style="margin-bottom:15px;">
-          <span>👨‍💻</span> I love using Software as a solution for every <span style="background-color:#2d3748; padding:3px 8px; border-radius:5px;">Problem</span>.
-        </li>
-        <li style="margin-bottom:15px;">
-          <span>💻</span> I am a competitive programmer at <span style="background-color:#2d3748; padding:3px 8px; border-radius:5px;">Codeforces</span>, <span style="background-color:#2d3748; padding:3px 8px; border-radius:5px;">Atcoder</span>, <span style="background-color:#2d3748; padding:3px 8px; border-radius:5px;">Leetcode</span>, <span style="background-color:#2d3748; padding:3px 8px; border-radius:5px;">Codechef</span>, <span style="background-color:#2d3748; padding:3px 8px; border-radius:5px;">Google Contests</span>.
-        </li>
-        <li style="margin-bottom:15px;">
-          <span>🎓</span> I'm currently learning <span style="background-color:#2d3748; padding:3px 8px; border-radius:5px;">Computer Science</span> and <span style="background-color:#2d3748; padding:3px 8px; border-radius:5px;">Software Engineering</span>.
-        </li>
-        <li style="margin-bottom:15px;">
-          <span>🤓</span> Always <span style="background-color:#2d3748; padding:3px 8px; border-radius:5px;">learning new things</span>.
-        </li>
-        <li style="margin-bottom:15px;">
-          <span>🤔</span> I'm currently open for a new <span style="background-color:#2d3748; padding:3px 8px; border-radius:5px;">job opportunity</span>, this is <a href="#" style="color:#4299e1; text-decoration:none;">MY RESUME</a>.
-        </li>
-        <li style="margin-bottom:15px;">
-          <span>💥</span> You can visit <a href="#" style="color:#4299e1; text-decoration:none;">MY WEBSITE</a>.
-        </li>
-      </ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Ahmed Hossam</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f1218;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            align-items: flex-start;
+        }
+        .content {
+            flex: 1;
+        }
+        .image {
+            flex: 1;
+            text-align: right;
+            max-width: 400px;
+        }
+        .image img {
+            max-width: 100%;
+        }
+        h1 {
+            border-bottom: 1px solid #2a2f38;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        h1 img {
+            width: 50px;
+            margin-right: 15px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        li img, li span {
+            margin-right: 10px;
+        }
+        .badge {
+            background-color: #1e2738;
+            padding: 5px 10px;
+            border-radius: 4px;
+            margin: 0 5px;
+        }
+        a {
+            color: #4da3ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" alt="About me icon"> About me</h1>
+            <ul>
+                <li>🏫 I am a <span class="badge">Junior</span> at <a href="http://suez.edu.eg/ar/faculty-of-computers-informatics/">Faculty of Computers & Informatics</a> at <a href="http://suez.edu.eg/ar/">Suez Canal University</a>.</li>
+                <li>🏆 2x <span class="badge">ACPC</span> Finalist.</li>
+                <li>👨‍💻 I love using Software as a solution for every <span class="badge">Problem</span>.</li>
+                <li>💻 I am a competitive programmer at <span class="badge">Codeforces</span>, <span class="badge">Atcoder</span>, <span class="badge">Leetcode</span>, <span class="badge">Codechef</span>, <span class="badge">Google Contests</span>.</li>
+                <li>🎓 I'm currently learning <span class="badge">Computer Science</span> and <span class="badge">Software Engineering</span>.</li>
+                <li>🤓 Always <span class="badge">learning new things</span>.</li>
+                <li>🤔 I'm currently open for a new <span class="badge">job opportunity</span>, this is <a href="http://lnkiy.in/Ahmed_Hossam_Resume">MY RESUME</a>.</li>
+                <li>💥 You can visit <a href="https://cutt.ly/Ahmed_Hossam_Website">MY WEBSITE</a>.</li>
+            </ul>
+        </div>
+        <div class="image">
+            <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" alt="Programmer animation">
+        </div>
     </div>
-    <div style="width:40%; display:flex; justify-content:center; align-items:center;">
-      <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" width="250px" alt="Programmer illustration">
-    </div>
-  </div>
-</div>
+</body>
+</html>
