@@ -5,3 +5,5 @@
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)  
 📫 **Contáctame**: [LinkedIn](https://linkedin.com/in/tuperfil) | tu@email.com  
 ⚡ **Dato curioso**: ¡Toco la guitarra en mi tiempo libre! 🎸
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tuusuario&layout=compact)
