@@ -6,21 +6,17 @@
 <!-- SECCIÓN ABOUT ME -->
 <h2>
     <picture><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width="50px"></picture> 
-    About me
+    Sobre mí
 </h2>
 <picture> 
     <img align="right" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" width="250px">
 </picture>
 
 <ul style="list-style-type: none;">
-    <li>🏫 I am a `Junior` at <a href="http://suez.edu.eg/ar/%d9%83%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%ad%d8%a7%d8%b3%d8%a8%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa/">Faculty of Computers & Informatics</a> at <a href="http://suez.edu.eg/ar/">Suez Canal University</a>.</li>
-    <li>🏆 2x `ACPC` Finalist.</li>
-    <li>👨‍💻 I love using Software as a solution for every `Problem`.</li>
+    <li>🏫 Soy estudiante de la <a href="https://www.uce.edu.ec/web/fing">Facultad de Ingeniería y Ciencias Aplicadas de la Carrera de Computación</a> en la <a href="https://www.uce.edu.ec/">Univesidad Central del Ecuador</a>.</li>
+    <li>👨‍💻 La programación se convirtió en mi lienzo y mi motor. No hay límites más allá de los que imponga la creatividad: transformar conceptos abstractos en sistemas funcionales, resolver problemas con líneas de código o dar forma a mundos digitales desde cero.</li>
     <li>💻 I am a competitive programmer at `Codeforces`, `Atcoder`, `Leetcode`, `Codechef`, `Google Contests`.</li>
-    <li>🧠 I'm currently learning `Computer Science` and `Software Engineering`.</li>
-    <li>🤓 Always `learning new things`.</li>
-    <li>🤔 I'm currently open for a new `job opportunity`, this is <a href="http://lnkiy.in/Ahmed_Hossam_Resume">MY RESUME</a>.</li>
-    <li>💥 You can visit <a href="https://cutt.ly/Ahmed_Hossam_Website">MY WEBSITE</a>.</li>
+    <li>💥 Puedes visitar mi portfolio web: <a href="https://cutt.ly/Ahmed_Hossam_Website">Aryy's Portfolio</a>.</li>
 </ul>
 
 <!-- SECCIÓN DE HABILIDADES -->
@@ -29,7 +25,7 @@
     Mis habilidades
 </h2>
 
-<h3>LANGUAGES</h3>
+<h3>LENGUAJES DE PROGRAMACION</h3>
 <p align="left">
   <a href="#" target="_blank"> 
     <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="c++"/> 
@@ -82,7 +78,7 @@
   </a>
 </p>
 
-<h3>FRAMEWORKS, PLATFORMS & LIBRARIES</h3>
+<h3>FRAMEWORKS, PLATAFORMAS & LIBRERIAS</h3>
 <p align="left">
   <a href="#" target="_blank"> 
     <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="angular"/> 
@@ -128,14 +124,14 @@
   </a>
 </p>
 
-<h3>SERVERS</h3>
+<h3>SERVIDORES</h3>
 <p align="left">
   <a href="#" target="_blank"> 
     <img src="https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=apache-tomcat&logoColor=black" alt="apache tomcat"/> 
   </a>
 </p>
 
-<h3>DATABASES / ORM</h3>
+<h3>BASES DE DATOS/ ORM</h3>
 <p align="left">
   <a href="#" target="_blank"> 
     <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="firebase"/> 
@@ -154,7 +150,7 @@
   </a>
 </p>
 
-<h3>ML/DL</h3>
+<h3>MACHINE LEARNING/DEEP LEARNING</h3>
 <p align="left">
   <a href="#" target="_blank"> 
     <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="keras"/> 
@@ -168,7 +164,7 @@
 </p>
 
 <!-- SECCIÓN DE Analisis -->
-### ⚙️ &nbsp;GitHub Analytics
+### ⚙️ &nbsp;GITHUB ANALISIS
 
 <p align="center">
   <a href="https://github.com/Aryy234">
