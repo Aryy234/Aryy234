@@ -10,35 +10,45 @@
             background-color: #0f1218;
             color: white;
             margin: 0;
-            padding: 0;
+            padding: 20px;
         }
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 20px;
-            display: flex;
-            align-items: flex-start;
+            padding: 0 20px;
         }
-        .content {
-            flex: 1;
-        }
-        .image {
-            flex: 1;
-            text-align: right;
-            max-width: 400px;
-        }
-        .image img {
-            max-width: 100%;
-        }
-        h1 {
-            border-bottom: 1px solid #2a2f38;
-            padding-bottom: 10px;
+        .header {
             display: flex;
             align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #2a2f38;
+            padding-bottom: 10px;
         }
-        h1 img {
-            width: 50px;
+        .header img {
+            width: 80px;
             margin-right: 15px;
+        }
+        .header h1 {
+            font-size: 28px;
+            margin: 0;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .info {
+            flex: 1;
+            min-width: 300px;
+        }
+        .illustration {
+            flex: 1;
+            text-align: right;
+            min-width: 300px;
+            margin-top: 20px;
+        }
+        .illustration img {
+            max-width: 100%;
+            height: auto;
         }
         ul {
             list-style-type: none;
@@ -49,14 +59,16 @@
             display: flex;
             align-items: center;
         }
-        li img, li span {
+        li img {
+            width: 20px;
+            height: 20px;
             margin-right: 10px;
         }
-        .badge {
-            background-color: #1e2738;
-            padding: 5px 10px;
-            border-radius: 4px;
-            margin: 0 5px;
+        li .emoji {
+            font-size: 18px;
+            margin-right: 10px;
+            display: inline-block;
+            width: 20px;
         }
         a {
             color: #4da3ff;
@@ -69,21 +81,26 @@
 </head>
 <body>
     <div class="container">
-        <div class="content">
-            <h1><img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" alt="About me icon"> About me</h1>
-            <ul>
-                <li>🏫 I am a <span class="badge">Junior</span> at <a href="http://suez.edu.eg/ar/faculty-of-computers-informatics/">Faculty of Computers & Informatics</a> at <a href="http://suez.edu.eg/ar/">Suez Canal University</a>.</li>
-                <li>🏆 2x <span class="badge">ACPC</span> Finalist.</li>
-                <li>👨‍💻 I love using Software as a solution for every <span class="badge">Problem</span>.</li>
-                <li>💻 I am a competitive programmer at <span class="badge">Codeforces</span>, <span class="badge">Atcoder</span>, <span class="badge">Leetcode</span>, <span class="badge">Codechef</span>, <span class="badge">Google Contests</span>.</li>
-                <li>🎓 I'm currently learning <span class="badge">Computer Science</span> and <span class="badge">Software Engineering</span>.</li>
-                <li>🤓 Always <span class="badge">learning new things</span>.</li>
-                <li>🤔 I'm currently open for a new <span class="badge">job opportunity</span>, this is <a href="http://lnkiy.in/Ahmed_Hossam_Resume">MY RESUME</a>.</li>
-                <li>💥 You can visit <a href="https://cutt.ly/Ahmed_Hossam_Website">MY WEBSITE</a>.</li>
-            </ul>
+        <div class="header">
+            <img src="https://raw.githubusercontent.com/7oSkaaa/7oSkaaa/main/Images/about_me.gif" alt="About icon">
+            <h1>About me</h1>
         </div>
-        <div class="image">
-            <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" alt="Programmer animation">
+        <div class="content">
+            <div class="info">
+                <ul>
+                    <li><span class="emoji">🏫</span> I am a Junior at <a href="#">Faculty of Computers & Informatics</a> at <a href="#">Suez Canal University</a>.</li>
+                    <li><span class="emoji">🏆</span> 2x ACPC Finalist.</li>
+                    <li><span class="emoji">👨‍💻</span> I love using Software as a solution for every Problem.</li>
+                    <li><span class="emoji">💻</span> I am a competitive programmer at Codeforces, Atcoder, Leetcode, Codechef, Google Contests.</li>
+                    <li><span class="emoji">🎓</span> I'm currently learning Computer Science and Software Engineering.</li>
+                    <li><span class="emoji">🤓</span> Always learning new things.</li>
+                    <li><span class="emoji">🤔</span> I'm currently open for a new job opportunity, this is <a href="http://lnkiy.in/Ahmed_Hossam_Resume">MY RESUME</a>.</li>
+                    <li><span class="emoji">💥</span> You can visit <a href="https://cutt.ly/Ahmed_Hossam_Website">MY WEBSITE</a>.</li>
+                </ul>
+            </div>
+            <div class="illustration">
+                <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" alt="Programmer illustration">
+            </div>
         </div>
     </div>
 </body>
