@@ -15,7 +15,7 @@
 <ul style="list-style-type: none;">
     <li>🏫 Soy estudiante de la <a href="https://www.uce.edu.ec/web/fing">Facultad de Ingeniería y Ciencias Aplicadas de la Carrera de Computación</a> en la <a href="https://www.uce.edu.ec/">Univesidad Central del Ecuador</a>.</li>
     <li>👨‍💻 La programación se convirtió en mi lienzo y mi motor. No hay límites más allá de los que imponga la creatividad: transformar conceptos abstractos en sistemas funcionales, resolver problemas con líneas de código o dar forma a mundos digitales desde cero.</li>
-    <li>💥 Puedes visitar mi portfolio web: <a href="https://cutt.ly/Ahmed_Hossam_Website">Aryy's Portfolio</a>.</li>
+    <li>💥 Puedes visitar mi portfolio web: <a href="https://portfolioariel.vercel.app/">Aryy's Portfolio</a>.</li>
 </ul>
 
 <!-- SECCIÓN DE HABILIDADES -->
